@@ -1,0 +1,23 @@
+{
+  "name": "maildev-tester",
+  "version": "1.0.0",
+  "description": "this app is just testing maildev",
+  "main": "tester.js",
+  "scripts": {
+    "test": "node tester.js",
+    "start": "node tester.js",
+    "start-server": "node server.js"
+  },
+  "keywords": [
+    "maildev/maildev",
+    "node.js"
+  ],
+  "author": "mirkan1",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "maildev": "^2.1.0",
+    "nodemailer": "^6.9.10"
+  }
+}
